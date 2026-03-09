@@ -4,7 +4,7 @@ import pandas as pd
 # Set page configuration
 st.set_page_config(page_title="Property Distress Scorer", layout="wide")
 
-st.title("🏘️ Seller Score")
+st.title("🏘️ Seller Signal")
 st.markdown("""
 Upload your **Main Properties** list and one or more **Distress Lists** (e.g., Code Violations, Tax Delinquency). 
 The app will cross-reference addresses and assign a priority score (10 points per match).
